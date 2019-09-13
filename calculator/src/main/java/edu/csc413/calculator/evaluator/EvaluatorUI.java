@@ -72,6 +72,28 @@ public class EvaluatorUI extends JFrame implements ActionListener {
      */
     public void actionPerformed(ActionEvent eventObject) {
 
-
+        if(eventObject.getSource()==buttons[0]) txField.setText(txField.getText() + bText[0]);
+        if(eventObject.getSource()==buttons[1]) txField.setText(txField.getText() + bText[1]);
+        if(eventObject.getSource()==buttons[2]) txField.setText(txField.getText() + bText[2]);
+        if(eventObject.getSource()==buttons[3]) txField.setText(txField.getText() + bText[3]);
+        if(eventObject.getSource()==buttons[4]) txField.setText(txField.getText() + bText[4]);
+        if(eventObject.getSource()==buttons[5]) txField.setText(txField.getText() + bText[5]);
+        if(eventObject.getSource()==buttons[6]) txField.setText(txField.getText() + bText[6]);
+        if(eventObject.getSource()==buttons[7]) txField.setText(txField.getText() + bText[7]);
+        if(eventObject.getSource()==buttons[8]) txField.setText(txField.getText() + bText[8]);
+        if(eventObject.getSource()==buttons[9]) txField.setText(txField.getText() + bText[9]);
+        if(eventObject.getSource()==buttons[10]) txField.setText(txField.getText() + bText[10]);
+        if(eventObject.getSource()==buttons[11]) txField.setText(txField.getText() + bText[11]);
+        if(eventObject.getSource()==buttons[12]) txField.setText(txField.getText() + bText[12]);
+        if(eventObject.getSource()==buttons[13]) txField.setText(txField.getText() + bText[13]);
+        if(eventObject.getSource()==buttons[14]){ Evaluator clear = new Evaluator();
+        txField.setText(Integer.toString(clear.eval(txField.getText()))); }
+        System.out.println("Pressed");
+        if(eventObject.getSource()==buttons[15]) txField.setText(txField.getText() + bText[15]);
+        if(eventObject.getSource()==buttons[16]) txField.setText(txField.getText() + bText[16]);
+        if(eventObject.getSource()==buttons[17]) txField.setText(txField.getText() + bText[17]);
+        if(eventObject.getSource()==buttons[18]) txField.setText(" ");
+        if(eventObject.getSource()==buttons[19]) txField.setText(" ");
+        if(eventObject.getSource()==buttons[20]) txField.setText(" ");
     }
 }
